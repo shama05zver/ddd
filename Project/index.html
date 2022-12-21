@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserra:400,700&amp;subset=cyrllic-ext" rel="stylesheet">
+        <title>Site</title>
+    </head>
+    <body>
+      
+      
+       <header class="header">
+          <div class="container">
+              <div class="header__inner">
+<!--                  <div class="header__logo">Дом на берегу моря</div>-->
+                <img class="header__logo" src="assets/images/logo.png" alt="">
+                  
+                  <nav class="nav">
+                      <a class="nav__link" id="scroll1" href="#">About</a>
+                      <a class="nav__link" id="price" href="#">Price and reviews</a>
+                      <!-- <a class="nav__link" href="#">Blog</a> -->
+                      <a class="nav__link" id="btnwork" href="#">Work</a>
+                      <!-- <a class="nav__link" href="#">Contact</a> -->
+                  </nav>
+              </div>
+          </div>
+           
+       </header>
+       
+        <div class="intro">
+            <dialog class="dia">
+               
+                            <form action="action_page.php">
+                             <div class="closeModal" id="cancel"></div>
+                                  <div class="container">
+                                    <h1>Забронировать</h1>
+                                       
+                                        <p>Укажите Ваши данные</p>
+                                        <hr>
+
+                                            <label for="email"><b>Почта</b></label>
+                                            <input type="text" placeholder="Enter Email" name="email" required>
+
+                                            <label for="psw"><b>Введите пароль</b></label>
+                                            <input type="password" placeholder="Enter Password" name="psw" required>
+
+                                            <label for="psw-repeat"><b>Повторить пароль</b></label>
+                                            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                                            
+                                            <label for="">Введите номер телефона</label>
+                                            <input type='text' onkeypress='validate(event)' />
+                                            <hr>
+
+                                    <button type="submit" class="registerbtn">Register</button>
+                                  </div>
+
+                                  <div class="container signin">
+                                    <p>Already have an account? <a href="#">Sign in</a>.</p>
+                                  </div>
+                            </form>
+                
+            </dialog>
+           <div class="container">
+               <div class="intro__inner">
+                <h1 class="intro__title">Добро пожаловать</h1>
+                
+                   <a class="btn" id="open" href="#">Забронировать место</a>
+
+               </div>
+            </div>
+        </div>
+        
+        <section class="section" id="section1">
+            <div class="container">
+                <div class="section__header">
+                    <h3 class="section__suptitle"></h3>
+                    <h2 class="section__title">О нас</h2>
+                    <div class="section__text">
+                        <p>Всем знакомы наивные мечты о том, чтобы просыпаться утром от первого лучика солнца, лениво потягиваясь смотреть в окно и видеть перед собой чистое голубое море и далёких гор. Однако, мечта о современном доме на берегу водоёма может стать приятной реальностью для каждого из нас.</p>
+                    </div>
+                </div>
+                
+                <div class="about">
+                    <div class="about__items">
+                        <div class="about__img">
+                            <img src="assets/images/about/12333.gif" alt="">
+                        </div>
+                    </div>
+                    <div class="about__items">
+                        <div class="about__img">
+                            <img src="assets/images/about/4.gif" alt="">
+                        </div>
+                    </div>
+                    <div class="about__items">
+                        <div class="about__img">
+                            <img src="assets/images/about/5.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+            
+        </section>
+        
+    <div id="sectionPrice">
+        
+         <div class="prays__suptitle">Прайс и отзывы</div>
+    
+         <div class="statistics">
+           
+            <div class="container" id="prays">
+                <div class="stat">
+                    <div class="stat__items">
+                         <div class="stat__count">Эконом</div>
+                         <div class="stat__text">7 дней - 10.000руб.</div>
+                    </div>
+                    <div class="stat__items">
+                         <div class="stat__count">средний</div>
+                         <div class="stat__text">7 дней - 25.000руб.</div>
+                    </div>
+                    <div class="stat__items">
+                         <div class="stat__count">люкс</div>
+                        <div class="stat__text">7 дней 60.000руб.</div>
+                    </div>
+                </div>
+            </div>
+            
+        
+        
+           
+            <div class="container" id="otziv">
+                <div class="stat">
+                    <div class="stat__items">
+                        <div class="stat__count">105</div>
+                        <div class="stat__text">Кол. клиентов</div>
+                    </div>
+                    <div class="stat__items">
+                         <div class="stat__count">98</div>
+                         <div class="stat__text">Довольных клиентов</div>
+                    </div>
+                    <div class="stat__items">
+                         <div class="stat__count">2</div>
+                         <div class="stat__text">Владельца</div>
+                    </div>
+                    <div class="stat__items">
+                         <div class="stat__count">4.7</div>
+                        <div class="stat__text">Оценка клиентов</div>
+                    </div>
+                    <div class="stat__items">
+                         <div class="stat__count">25</div>
+                        <div class="stat__text">Отзывов</div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+        
+        
+        
+
+        <section class="section">
+            <div class="container">
+
+                <div class="section__header">
+                    <h3 class="section__suptitle">Как мы работаем</h3>
+                    <h2 class="section__title"></h2>
+
+                </div>
+
+                <div class="services" id="footer">
+                    <div class="services__items">
+                        <img class="services__img" src="assets/images/icons/zvonok1.jpg" alt="">
+
+                        <div class="services__title">Заявка</div>
+                        <div class="services__text">Вы звоните нам или оставляете свои данные на сайте</div>
+                    </div>
+                    <div class="services__items">
+                        <img class="services__img" src="assets/images/icons/beseda.jpg" alt="">
+
+                        <div class="services__title">Консультация</div>
+                        <div class="services__text">Мы проводим для Вас бесплатную консультацию</div>
+                    </div>
+                    <div class="services__items">
+                        <img class="services__img" src="assets/images/icons/dogovor.jpg" alt="">
+
+                        <div class="services__title">Договор</div>
+                        <div class="services__text">Заключение договора</div>
+                    </div>
+                    <div class="services__items">
+                        <img class="services__img" src="assets/images/icons/like.jpg" alt="">
+
+                        <div class="services__title">Сделка</div>
+                        <div class="services__text">Проводим сделку</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+
+
+        <div class="scroll-up" >
+            <svg class="scroll-up__svg" viewBox="-2 -2 52 52">
+                <path class="scroll-up__svg-path" d="M24,0 a24, 24 0 0,1 0,48 a24, 24 0 0,1 0,-48"></path>
+            </svg>
+        </div>
+ 
+        <script src="assets/javascript/script.js"></script>
+    </body>
+</html>
